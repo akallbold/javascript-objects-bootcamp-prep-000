@@ -3,6 +3,6 @@ var playlist = {
 };
 
 function updatePlaylist(playlist,key,value){
-  playlist.key=value;
+  playlist[key]=value;
   return playlist;
 }
