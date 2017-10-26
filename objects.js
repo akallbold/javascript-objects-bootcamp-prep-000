@@ -1,1 +1,3 @@
-var playlist = {artistName:songTitle,HAIM:Falling};
+var playlist = {
+  HAIM:'Falling'
+};
