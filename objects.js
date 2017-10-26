@@ -2,6 +2,6 @@ var playlist = {
   HAIM:'Falling'
 };
 
-updatePlaylist(playlist,key,value){
+updatePlaylist(key,value){
   return Object.assign(playlist, {[key] : value})
 }
